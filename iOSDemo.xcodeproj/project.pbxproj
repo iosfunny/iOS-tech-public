@@ -32,6 +32,8 @@
 		B1DF2B852271E71D0005A2D4 /* NSString+XLHash.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B802271E71C0005A2D4 /* NSString+XLHash.m */; };
 		B1DF2B892271EB0B0005A2D4 /* XLToolsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B882271EB0B0005A2D4 /* XLToolsRouter.m */; };
 		B1DF2B8D2271F7F50005A2D4 /* UIAlertController+XLQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */; };
+		B1DF2B922271FB860005A2D4 /* XLRunloopCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B912271FB860005A2D4 /* XLRunloopCellController.m */; };
+		B1DF2B952271FB950005A2D4 /* XLRuntimeCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B942271FB950005A2D4 /* XLRuntimeCellController.m */; };
 		B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11383226DBC6B0026AB43 /* XLFishhook.m */; };
 		B1E11387226DE7440026AB43 /* XLMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11386226DE7440026AB43 /* XLMRCViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B1F0D0492269F7A500E5F278 /* XLAppRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0482269F7A500E5F278 /* XLAppRootController.m */; };
@@ -141,6 +143,10 @@
 		B1DF2B882271EB0B0005A2D4 /* XLToolsRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLToolsRouter.m; sourceTree = "<group>"; };
 		B1DF2B8B2271F7F50005A2D4 /* UIAlertController+XLQuick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+XLQuick.h"; sourceTree = "<group>"; };
 		B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+XLQuick.m"; sourceTree = "<group>"; };
+		B1DF2B902271FB860005A2D4 /* XLRunloopCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLRunloopCellController.h; sourceTree = "<group>"; };
+		B1DF2B912271FB860005A2D4 /* XLRunloopCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLRunloopCellController.m; sourceTree = "<group>"; };
+		B1DF2B932271FB950005A2D4 /* XLRuntimeCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLRuntimeCellController.h; sourceTree = "<group>"; };
+		B1DF2B942271FB950005A2D4 /* XLRuntimeCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLRuntimeCellController.m; sourceTree = "<group>"; };
 		B1E11382226DBC6B0026AB43 /* XLFishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFishhook.h; sourceTree = "<group>"; };
 		B1E11383226DBC6B0026AB43 /* XLFishhook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFishhook.m; sourceTree = "<group>"; };
 		B1E11385226DE7440026AB43 /* XLMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMRCViewController.h; sourceTree = "<group>"; };
@@ -428,6 +434,24 @@
 				B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		B1DF2B8E2271FB720005A2D4 /* XLRuntimeCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B932271FB950005A2D4 /* XLRuntimeCellController.h */,
+				B1DF2B942271FB950005A2D4 /* XLRuntimeCellController.m */,
+			);
+			path = XLRuntimeCellController;
+			sourceTree = "<group>";
+		};
+		B1DF2B8F2271FB720005A2D4 /* XLRunloopCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B902271FB860005A2D4 /* XLRunloopCellController.h */,
+				B1DF2B912271FB860005A2D4 /* XLRunloopCellController.m */,
+			);
+			path = XLRunloopCellController;
 			sourceTree = "<group>";
 		};
 		B1E1137E226DBAA70026AB43 /* fishhook */ = {
@@ -728,6 +752,8 @@
 		B1FF4DDE226A0C0500D2586E /* CellControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B1DF2B8F2271FB720005A2D4 /* XLRunloopCellController */,
+				B1DF2B8E2271FB720005A2D4 /* XLRuntimeCellController */,
 				B1DF2B572271DC7A0005A2D4 /* XLScannerCellController */,
 				B1DF2B4D2271C5910005A2D4 /* XLAlgorithmCellController */,
 				B1DF2B4B2271C5900005A2D4 /* XLFlutterCellController */,
@@ -960,6 +986,7 @@
 				B1DF2B812271E71D0005A2D4 /* NSString+XLUUID.m in Sources */,
 				B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */,
 				B1F0D0902269FBB200E5F278 /* XLNavigator.m in Sources */,
+				B1DF2B922271FB860005A2D4 /* XLRunloopCellController.m in Sources */,
 				B1F0D0E8226A06F400E5F278 /* XLCommonCell.m in Sources */,
 				B1F0D0F2226A0A3900E5F278 /* XLNormalCellController.m in Sources */,
 				B1F0D0E5226A06F400E5F278 /* XLBaseCellController.m in Sources */,
@@ -967,6 +994,7 @@
 				B1F0D0CA2269FBD200E5F278 /* XLTabBarController.m in Sources */,
 				B1F0D0882269FBB200E5F278 /* XLVersionWelcomeItemView.m in Sources */,
 				B1F0D0E7226A06F400E5F278 /* XLBaseStaticCell.m in Sources */,
+				B1DF2B952271FB950005A2D4 /* XLRuntimeCellController.m in Sources */,
 				B1F0D0C42269FBD200E5F278 /* UIColor+XLBase.m in Sources */,
 				B1D581C020CC0F9100719BD8 /* main.m in Sources */,
 				B1F0D08C2269FBB200E5F278 /* XLChannelSelectBoardView.m in Sources */,
