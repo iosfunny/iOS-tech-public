@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray<ObjectType> (CBSafe)
+@interface NSArray<ObjectType> (XLSafe)
 /**
  *  return Obj or nil!
  */
@@ -17,7 +17,7 @@
 @end
 
 
-@interface NSMutableArray<ObjectType> (CBSafe)
+@interface NSMutableArray<ObjectType> (XLSafe)
 - (void)xlsafe_addObject:(ObjectType)object;
 
 @end

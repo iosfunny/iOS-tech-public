@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (CBSafe)
+@interface NSDictionary (XLSafe)
 - (NSString *)xlsafe_stringValueForKey:(NSString *)key;
 - (NSArray *)xlsafe_arrayValueForKey:(NSString *)key;
 - (NSDictionary *)xlsafe_dictionaryValueForKey:(NSString *)key;
@@ -23,6 +23,6 @@
 
 @end
 
-@interface NSMutableDictionary (CBSafe)
+@interface NSMutableDictionary (XLSafe)
 - (void)xlsafe_setObject:(id)anObject forKey:(id<NSCopying>)aKey;
 @end

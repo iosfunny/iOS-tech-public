@@ -13,6 +13,7 @@
 #import "XLAppRootDelegate.h"
 #import "UIViewController+XLFinder.h"
 #import "XLVersionWelcomeController.h"
+#import "XLRouterInit.h"
 
 @interface XLAppInitProcess ()
 @property (nonatomic, strong) XLAppRootDelegate * appRootDelegate;
@@ -66,6 +67,14 @@ static XLAppInitProcess * g_instance;
      *  欢迎页面
      */
     [XLVersionWelcomeController showIfNeed];
+    
+    // 不阻塞当前runloop
+    [XLNextRunloopRunner run:^{
+        /**
+         *  初始化路由
+         */
+        [XLRouterInit pluginSubRouter];
+    }];
 }
 
 @end

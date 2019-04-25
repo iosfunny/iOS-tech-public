@@ -8,7 +8,7 @@
 
 #import "NSArray+XLSafe.h"
 
-@implementation NSArray (CBSafe)
+@implementation NSArray (XLSafe)
 
 - (id)xlsafe_objectAtIndex:(NSUInteger)index
 {
@@ -23,7 +23,7 @@
 
 @end
 
-@implementation NSMutableArray (CBSafe)
+@implementation NSMutableArray (XLSafe)
 
 - (void)xlsafe_addObject:(id)object
 {

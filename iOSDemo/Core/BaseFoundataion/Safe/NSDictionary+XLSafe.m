@@ -8,7 +8,7 @@
 
 #import "NSDictionary+XLSafe.h"
 
-@implementation NSDictionary (CBSafe)
+@implementation NSDictionary (XLSafe)
 
 - (id)dataForKey:(NSString *)key
 {
@@ -117,7 +117,7 @@
 @end
 
 
-@implementation NSMutableDictionary (CBSafe)
+@implementation NSMutableDictionary (XLSafe)
 
 - (void)xlsafe_setObject:(id)anObject forKey:(id<NSCopying>)aKey
 {

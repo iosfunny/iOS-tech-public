@@ -19,6 +19,19 @@
 		B1DF2B502271C5910005A2D4 /* XLAlgorithmCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B4F2271C5910005A2D4 /* XLAlgorithmCellController.m */; };
 		B1DF2B532271C5A90005A2D4 /* XLFlutterCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B522271C5A90005A2D4 /* XLFlutterCellController.m */; };
 		B1DF2B562271C65B0005A2D4 /* XLReactNativeCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B552271C65B0005A2D4 /* XLReactNativeCellController.m */; };
+		B1DF2B5A2271DC950005A2D4 /* XLScannerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B592271DC950005A2D4 /* XLScannerCellController.m */; };
+		B1DF2B5E2271DD5A0005A2D4 /* XLScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B5D2271DD5A0005A2D4 /* XLScannerController.m */; };
+		B1DF2B622271DE030005A2D4 /* XLQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B602271DE030005A2D4 /* XLQRCodeView.m */; };
+		B1DF2B652271E1DC0005A2D4 /* XLQRCodeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B642271E1DC0005A2D4 /* XLQRCodeAreaView.m */; };
+		B1DF2B712271E3430005A2D4 /* XLRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B672271E3430005A2D4 /* XLRouterManager.m */; };
+		B1DF2B722271E3430005A2D4 /* XLBizRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B6A2271E3430005A2D4 /* XLBizRouter.m */; };
+		B1DF2B742271E3430005A2D4 /* XLRouterInit.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B702271E3430005A2D4 /* XLRouterInit.m */; };
+		B1DF2B812271E71D0005A2D4 /* NSString+XLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B782271E71C0005A2D4 /* NSString+XLUUID.m */; };
+		B1DF2B832271E71D0005A2D4 /* NSString+XLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B7C2271E71C0005A2D4 /* NSString+XLJSON.m */; };
+		B1DF2B842271E71D0005A2D4 /* NSString+XLURLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B7E2271E71C0005A2D4 /* NSString+XLURLCode.m */; };
+		B1DF2B852271E71D0005A2D4 /* NSString+XLHash.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B802271E71C0005A2D4 /* NSString+XLHash.m */; };
+		B1DF2B892271EB0B0005A2D4 /* XLToolsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B882271EB0B0005A2D4 /* XLToolsRouter.m */; };
+		B1DF2B8D2271F7F50005A2D4 /* UIAlertController+XLQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */; };
 		B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11383226DBC6B0026AB43 /* XLFishhook.m */; };
 		B1E11387226DE7440026AB43 /* XLMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11386226DE7440026AB43 /* XLMRCViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B1F0D0492269F7A500E5F278 /* XLAppRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0482269F7A500E5F278 /* XLAppRootController.m */; };
@@ -100,6 +113,34 @@
 		B1DF2B522271C5A90005A2D4 /* XLFlutterCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFlutterCellController.m; sourceTree = "<group>"; };
 		B1DF2B542271C65B0005A2D4 /* XLReactNativeCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLReactNativeCellController.h; sourceTree = "<group>"; };
 		B1DF2B552271C65B0005A2D4 /* XLReactNativeCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLReactNativeCellController.m; sourceTree = "<group>"; };
+		B1DF2B582271DC950005A2D4 /* XLScannerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScannerCellController.h; sourceTree = "<group>"; };
+		B1DF2B592271DC950005A2D4 /* XLScannerCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScannerCellController.m; sourceTree = "<group>"; };
+		B1DF2B5C2271DD5A0005A2D4 /* XLScannerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScannerController.h; sourceTree = "<group>"; };
+		B1DF2B5D2271DD5A0005A2D4 /* XLScannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScannerController.m; sourceTree = "<group>"; };
+		B1DF2B602271DE030005A2D4 /* XLQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQRCodeView.m; sourceTree = "<group>"; };
+		B1DF2B612271DE030005A2D4 /* XLQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQRCodeView.h; sourceTree = "<group>"; };
+		B1DF2B632271E1DC0005A2D4 /* XLQRCodeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLQRCodeAreaView.h; sourceTree = "<group>"; };
+		B1DF2B642271E1DC0005A2D4 /* XLQRCodeAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLQRCodeAreaView.m; sourceTree = "<group>"; };
+		B1DF2B672271E3430005A2D4 /* XLRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRouterManager.m; sourceTree = "<group>"; };
+		B1DF2B682271E3430005A2D4 /* XLRouterDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRouterDefined.h; sourceTree = "<group>"; };
+		B1DF2B692271E3430005A2D4 /* XLRouterInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRouterInit.h; sourceTree = "<group>"; };
+		B1DF2B6A2271E3430005A2D4 /* XLBizRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBizRouter.m; sourceTree = "<group>"; };
+		B1DF2B6E2271E3430005A2D4 /* XLRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRouterManager.h; sourceTree = "<group>"; };
+		B1DF2B6F2271E3430005A2D4 /* XLBizRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBizRouter.h; sourceTree = "<group>"; };
+		B1DF2B702271E3430005A2D4 /* XLRouterInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRouterInit.m; sourceTree = "<group>"; };
+		B1DF2B752271E6CC0005A2D4 /* XLRouterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRouterProtocol.h; sourceTree = "<group>"; };
+		B1DF2B772271E71C0005A2D4 /* NSString+XLJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLJSON.h"; sourceTree = "<group>"; };
+		B1DF2B782271E71C0005A2D4 /* NSString+XLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLUUID.m"; sourceTree = "<group>"; };
+		B1DF2B792271E71C0005A2D4 /* NSString+XLURLCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLURLCode.h"; sourceTree = "<group>"; };
+		B1DF2B7A2271E71C0005A2D4 /* NSString+XLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLHash.h"; sourceTree = "<group>"; };
+		B1DF2B7C2271E71C0005A2D4 /* NSString+XLJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLJSON.m"; sourceTree = "<group>"; };
+		B1DF2B7D2271E71C0005A2D4 /* NSString+XLUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLUUID.h"; sourceTree = "<group>"; };
+		B1DF2B7E2271E71C0005A2D4 /* NSString+XLURLCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLURLCode.m"; sourceTree = "<group>"; };
+		B1DF2B802271E71C0005A2D4 /* NSString+XLHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLHash.m"; sourceTree = "<group>"; };
+		B1DF2B872271EB0B0005A2D4 /* XLToolsRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLToolsRouter.h; sourceTree = "<group>"; };
+		B1DF2B882271EB0B0005A2D4 /* XLToolsRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLToolsRouter.m; sourceTree = "<group>"; };
+		B1DF2B8B2271F7F50005A2D4 /* UIAlertController+XLQuick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+XLQuick.h"; sourceTree = "<group>"; };
+		B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+XLQuick.m"; sourceTree = "<group>"; };
 		B1E11382226DBC6B0026AB43 /* XLFishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFishhook.h; sourceTree = "<group>"; };
 		B1E11383226DBC6B0026AB43 /* XLFishhook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFishhook.m; sourceTree = "<group>"; };
 		B1E11385226DE7440026AB43 /* XLMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMRCViewController.h; sourceTree = "<group>"; };
@@ -310,6 +351,85 @@
 			path = XLAlgorithmCellController;
 			sourceTree = "<group>";
 		};
+		B1DF2B572271DC7A0005A2D4 /* XLScannerCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B582271DC950005A2D4 /* XLScannerCellController.h */,
+				B1DF2B592271DC950005A2D4 /* XLScannerCellController.m */,
+			);
+			path = XLScannerCellController;
+			sourceTree = "<group>";
+		};
+		B1DF2B5B2271DD2F0005A2D4 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B5F2271DDF60005A2D4 /* Views */,
+				B1DF2B5C2271DD5A0005A2D4 /* XLScannerController.h */,
+				B1DF2B5D2271DD5A0005A2D4 /* XLScannerController.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		B1DF2B5F2271DDF60005A2D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B612271DE030005A2D4 /* XLQRCodeView.h */,
+				B1DF2B602271DE030005A2D4 /* XLQRCodeView.m */,
+				B1DF2B632271E1DC0005A2D4 /* XLQRCodeAreaView.h */,
+				B1DF2B642271E1DC0005A2D4 /* XLQRCodeAreaView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1DF2B662271E3430005A2D4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B862271EAF90005A2D4 /* ToolsRouter */,
+				B1DF2B752271E6CC0005A2D4 /* XLRouterProtocol.h */,
+				B1DF2B692271E3430005A2D4 /* XLRouterInit.h */,
+				B1DF2B702271E3430005A2D4 /* XLRouterInit.m */,
+				B1DF2B6E2271E3430005A2D4 /* XLRouterManager.h */,
+				B1DF2B672271E3430005A2D4 /* XLRouterManager.m */,
+				B1DF2B6F2271E3430005A2D4 /* XLBizRouter.h */,
+				B1DF2B6A2271E3430005A2D4 /* XLBizRouter.m */,
+				B1DF2B682271E3430005A2D4 /* XLRouterDefined.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1DF2B762271E71C0005A2D4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B772271E71C0005A2D4 /* NSString+XLJSON.h */,
+				B1DF2B7C2271E71C0005A2D4 /* NSString+XLJSON.m */,
+				B1DF2B792271E71C0005A2D4 /* NSString+XLURLCode.h */,
+				B1DF2B7E2271E71C0005A2D4 /* NSString+XLURLCode.m */,
+				B1DF2B7D2271E71C0005A2D4 /* NSString+XLUUID.h */,
+				B1DF2B782271E71C0005A2D4 /* NSString+XLUUID.m */,
+				B1DF2B7A2271E71C0005A2D4 /* NSString+XLHash.h */,
+				B1DF2B802271E71C0005A2D4 /* NSString+XLHash.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		B1DF2B862271EAF90005A2D4 /* ToolsRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B872271EB0B0005A2D4 /* XLToolsRouter.h */,
+				B1DF2B882271EB0B0005A2D4 /* XLToolsRouter.m */,
+			);
+			path = ToolsRouter;
+			sourceTree = "<group>";
+		};
+		B1DF2B8A2271F7D70005A2D4 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B8B2271F7F50005A2D4 /* UIAlertController+XLQuick.h */,
+				B1DF2B8C2271F7F50005A2D4 /* UIAlertController+XLQuick.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		B1E1137E226DBAA70026AB43 /* fishhook */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,7 +442,9 @@
 		B1F0D0682269FBB200E5F278 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				B1DF2B662271E3430005A2D4 /* Router */,
 				B1F0D0D3226A031400E5F278 /* Home */,
+				B1DF2B5B2271DD2F0005A2D4 /* Scanner */,
 				B1F0D0CB226A006E00E5F278 /* XLChannelsController */,
 				B1F0D0692269FBB200E5F278 /* VersionWelcome */,
 				B1F0D0722269FBB200E5F278 /* XLChannelScrollView */,
@@ -402,6 +524,7 @@
 		B1F0D0942269FBD100E5F278 /* BaseFoundataion */ = {
 			isa = PBXGroup;
 			children = (
+				B1DF2B762271E71C0005A2D4 /* NSString */,
 				B1F0D0952269FBD100E5F278 /* Safe */,
 				B1F0D09A2269FBD100E5F278 /* RunLoop */,
 				B1F0D09D2269FBD100E5F278 /* XLResourceManager */,
@@ -441,6 +564,7 @@
 		B1F0D0A02269FBD100E5F278 /* BaseUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B1DF2B8A2271F7D70005A2D4 /* Alert */,
 				B1F0D0E9226A076100E5F278 /* Views */,
 				B1F0D0DA226A06F400E5F278 /* TableView */,
 				B1F0D0A12269FBD100E5F278 /* UIImage */,
@@ -604,6 +728,7 @@
 		B1FF4DDE226A0C0500D2586E /* CellControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B1DF2B572271DC7A0005A2D4 /* XLScannerCellController */,
 				B1DF2B4D2271C5910005A2D4 /* XLAlgorithmCellController */,
 				B1DF2B4B2271C5900005A2D4 /* XLFlutterCellController */,
 				B1DF2B4C2271C5900005A2D4 /* XLReactNativeCellController */,
@@ -794,39 +919,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1DF2B892271EB0B0005A2D4 /* XLToolsRouter.m in Sources */,
 				B1F0D08E2269FBB200E5F278 /* XLChannelControllerFactory.m in Sources */,
 				B1F0D0922269FBB200E5F278 /* XLAppRootDelegate.m in Sources */,
 				B1F0D0E6226A06F400E5F278 /* XLTableCellProvider.m in Sources */,
 				B1DF2B502271C5910005A2D4 /* XLAlgorithmCellController.m in Sources */,
 				B1F0D0D2226A02DC00E5F278 /* TestViewController.m in Sources */,
+				B1DF2B842271E71D0005A2D4 /* NSString+XLURLCode.m in Sources */,
 				B1F0D0C12269FBD100E5F278 /* UIImage+XLQuick.m in Sources */,
 				B1F0D0EC226A076100E5F278 /* XLBadgeView.m in Sources */,
 				B1F0D0C22269FBD200E5F278 /* XLImageView.m in Sources */,
 				B1F0D08A2269FBB200E5F278 /* XLChannelController.m in Sources */,
 				B1F0D0BF2269FBD100E5F278 /* XLNextRunloopRunner.m in Sources */,
+				B1DF2B742271E3430005A2D4 /* XLRouterInit.m in Sources */,
 				B1DF2B532271C5A90005A2D4 /* XLFlutterCellController.m in Sources */,
+				B1DF2B5A2271DC950005A2D4 /* XLScannerCellController.m in Sources */,
 				B1F0D0912269FBB200E5F278 /* XLAppInitProcess.m in Sources */,
+				B1DF2B722271E3430005A2D4 /* XLBizRouter.m in Sources */,
+				B1DF2B8D2271F7F50005A2D4 /* UIAlertController+XLQuick.m in Sources */,
 				B1F0D0BD2269FBD100E5F278 /* NSDictionary+XLSafe.m in Sources */,
 				B1F0D0872269FBB200E5F278 /* XLVersionWelcomeController.m in Sources */,
 				B1F0D0C82269FBD200E5F278 /* XLDrawHelper.m in Sources */,
 				B1F0D0C02269FBD100E5F278 /* XLResourceManager.m in Sources */,
+				B1DF2B712271E3430005A2D4 /* XLRouterManager.m in Sources */,
 				B1F0D08B2269FBB200E5F278 /* XLChannelScrollView.m in Sources */,
 				B1F0D0C92269FBD200E5F278 /* UIViewController+XLFinder.m in Sources */,
+				B1DF2B652271E1DC0005A2D4 /* XLQRCodeAreaView.m in Sources */,
 				B1F0D0C32269FBD200E5F278 /* UIView+XLLayout.m in Sources */,
 				B1F0D0CE226A006E00E5F278 /* XLChannelsController.m in Sources */,
 				B1F0D0D9226A040000E5F278 /* XLBaseController.m in Sources */,
 				B1F0D0EF226A092100E5F278 /* XLBaseStaticTableController.m in Sources */,
 				B1F0D0C72269FBD200E5F278 /* XLNavigationBar.m in Sources */,
+				B1DF2B832271E71D0005A2D4 /* NSString+XLJSON.m in Sources */,
+				B1DF2B852271E71D0005A2D4 /* NSString+XLHash.m in Sources */,
 				B1F0D0D6226A032400E5F278 /* XLHomeController.m in Sources */,
 				B1F0D08D2269FBB200E5F278 /* XLChannel.m in Sources */,
 				B1F0D08F2269FBB200E5F278 /* XLChannelItemView.m in Sources */,
 				B1DF2B562271C65B0005A2D4 /* XLReactNativeCellController.m in Sources */,
 				B1E11387226DE7440026AB43 /* XLMRCViewController.m in Sources */,
+				B1DF2B812271E71D0005A2D4 /* NSString+XLUUID.m in Sources */,
 				B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */,
 				B1F0D0902269FBB200E5F278 /* XLNavigator.m in Sources */,
 				B1F0D0E8226A06F400E5F278 /* XLCommonCell.m in Sources */,
 				B1F0D0F2226A0A3900E5F278 /* XLNormalCellController.m in Sources */,
 				B1F0D0E5226A06F400E5F278 /* XLBaseCellController.m in Sources */,
+				B1DF2B5E2271DD5A0005A2D4 /* XLScannerController.m in Sources */,
 				B1F0D0CA2269FBD200E5F278 /* XLTabBarController.m in Sources */,
 				B1F0D0882269FBB200E5F278 /* XLVersionWelcomeItemView.m in Sources */,
 				B1F0D0E7226A06F400E5F278 /* XLBaseStaticCell.m in Sources */,
@@ -834,6 +971,7 @@
 				B1D581C020CC0F9100719BD8 /* main.m in Sources */,
 				B1F0D08C2269FBB200E5F278 /* XLChannelSelectBoardView.m in Sources */,
 				B1F0D0C52269FBD200E5F278 /* XLTransparentNavigationBar.m in Sources */,
+				B1DF2B622271DE030005A2D4 /* XLQRCodeView.m in Sources */,
 				B1F0D0492269F7A500E5F278 /* XLAppRootController.m in Sources */,
 				B1F0D0BE2269FBD100E5F278 /* NSArray+XLSafe.m in Sources */,
 				B1F0D0C62269FBD200E5F278 /* XLNavigationController.m in Sources */,
@@ -1011,11 +1149,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VBYF372Z4;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOSDemo/third",
-					"$(PROJECT_DIR)/iOSDemo/third/GD",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSDemo/XLPrefixHeader.pch";
 				INFOPLIST_FILE = iOSDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1023,11 +1157,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOSDemo/third/thirdlibs",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemo;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1042,11 +1173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VBYF372Z4;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOSDemo/third",
-					"$(PROJECT_DIR)/iOSDemo/third/GD",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSDemo/XLPrefixHeader.pch";
 				INFOPLIST_FILE = iOSDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1054,11 +1181,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOSDemo/third/thirdlibs",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemo;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

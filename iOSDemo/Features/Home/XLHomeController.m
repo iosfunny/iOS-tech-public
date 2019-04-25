@@ -9,6 +9,7 @@
 #import "XLHomeController.h"
 
 #pragma mark - cellControllers
+#import "XLScannerCellController.h"
 #import "XLAlgorithmCellController.h"
 #import "XLReactNativeCellController.h"
 #import "XLFlutterCellController.h"
@@ -32,6 +33,7 @@
 - (void)featurePluginCells
 {
     NSInteger section = 0;
+    [self.cellProvider pluginCellController:[XLScannerCellController cellController] atSection:section];
     [self.cellProvider pluginCellController:[XLAlgorithmCellController cellController] atSection:section];
     [self.cellProvider pluginCellController:[XLFlutterCellController cellController] atSection:section];
     [self.cellProvider pluginCellController:[XLReactNativeCellController cellController] atSection:section];
