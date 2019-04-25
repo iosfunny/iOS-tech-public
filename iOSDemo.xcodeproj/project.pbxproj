@@ -1,0 +1,1179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		609B803CD48FB93CF3828389 /* libPods-iOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9017AF772B1B96590B84DBA /* libPods-iOSDemo.a */; };
+		B18C4225226882C9003FCAF6 /* xl_resources in Resources */ = {isa = PBXBuildFile; fileRef = B18C4224226882C9003FCAF6 /* xl_resources */; };
+		B1D581B220CC0F9000719BD8 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D581B120CC0F9000719BD8 /* XLAppDelegate.m */; };
+		B1D581B820CC0F9000719BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D581B620CC0F9000719BD8 /* Main.storyboard */; };
+		B1D581BA20CC0F9100719BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D581B920CC0F9100719BD8 /* Assets.xcassets */; };
+		B1D581BD20CC0F9100719BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D581BB20CC0F9100719BD8 /* LaunchScreen.storyboard */; };
+		B1D581C020CC0F9100719BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D581BF20CC0F9100719BD8 /* main.m */; };
+		B1D581CA20CC0F9100719BD8 /* iOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D581C920CC0F9100719BD8 /* iOSDemoTests.m */; };
+		B1D581D520CC0F9100719BD8 /* iOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D581D420CC0F9100719BD8 /* iOSDemoUITests.m */; };
+		B1DF2B502271C5910005A2D4 /* XLAlgorithmCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B4F2271C5910005A2D4 /* XLAlgorithmCellController.m */; };
+		B1DF2B532271C5A90005A2D4 /* XLFlutterCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B522271C5A90005A2D4 /* XLFlutterCellController.m */; };
+		B1DF2B562271C65B0005A2D4 /* XLReactNativeCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2B552271C65B0005A2D4 /* XLReactNativeCellController.m */; };
+		B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11383226DBC6B0026AB43 /* XLFishhook.m */; };
+		B1E11387226DE7440026AB43 /* XLMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E11386226DE7440026AB43 /* XLMRCViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1F0D0492269F7A500E5F278 /* XLAppRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0482269F7A500E5F278 /* XLAppRootController.m */; };
+		B1F0D0872269FBB200E5F278 /* XLVersionWelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D06B2269FBB200E5F278 /* XLVersionWelcomeController.m */; };
+		B1F0D0882269FBB200E5F278 /* XLVersionWelcomeItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D06D2269FBB200E5F278 /* XLVersionWelcomeItemView.m */; };
+		B1F0D08A2269FBB200E5F278 /* XLChannelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0742269FBB200E5F278 /* XLChannelController.m */; };
+		B1F0D08B2269FBB200E5F278 /* XLChannelScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0792269FBB200E5F278 /* XLChannelScrollView.m */; };
+		B1F0D08C2269FBB200E5F278 /* XLChannelSelectBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D07B2269FBB200E5F278 /* XLChannelSelectBoardView.m */; };
+		B1F0D08D2269FBB200E5F278 /* XLChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D07C2269FBB200E5F278 /* XLChannel.m */; };
+		B1F0D08E2269FBB200E5F278 /* XLChannelControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D07D2269FBB200E5F278 /* XLChannelControllerFactory.m */; };
+		B1F0D08F2269FBB200E5F278 /* XLChannelItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D07E2269FBB200E5F278 /* XLChannelItemView.m */; };
+		B1F0D0902269FBB200E5F278 /* XLNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0802269FBB200E5F278 /* XLNavigator.m */; };
+		B1F0D0912269FBB200E5F278 /* XLAppInitProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0852269FBB200E5F278 /* XLAppInitProcess.m */; };
+		B1F0D0922269FBB200E5F278 /* XLAppRootDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0862269FBB200E5F278 /* XLAppRootDelegate.m */; };
+		B1F0D0BD2269FBD100E5F278 /* NSDictionary+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0982269FBD100E5F278 /* NSDictionary+XLSafe.m */; };
+		B1F0D0BE2269FBD100E5F278 /* NSArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0992269FBD100E5F278 /* NSArray+XLSafe.m */; };
+		B1F0D0BF2269FBD100E5F278 /* XLNextRunloopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D09B2269FBD100E5F278 /* XLNextRunloopRunner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1F0D0C02269FBD100E5F278 /* XLResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D09F2269FBD100E5F278 /* XLResourceManager.m */; };
+		B1F0D0C12269FBD100E5F278 /* UIImage+XLQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0A32269FBD100E5F278 /* UIImage+XLQuick.m */; };
+		B1F0D0C22269FBD200E5F278 /* XLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0A62269FBD100E5F278 /* XLImageView.m */; };
+		B1F0D0C32269FBD200E5F278 /* UIView+XLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0A92269FBD100E5F278 /* UIView+XLLayout.m */; };
+		B1F0D0C42269FBD200E5F278 /* UIColor+XLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0AB2269FBD100E5F278 /* UIColor+XLBase.m */; };
+		B1F0D0C52269FBD200E5F278 /* XLTransparentNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0AE2269FBD100E5F278 /* XLTransparentNavigationBar.m */; };
+		B1F0D0C62269FBD200E5F278 /* XLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0B02269FBD100E5F278 /* XLNavigationController.m */; };
+		B1F0D0C72269FBD200E5F278 /* XLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0B22269FBD100E5F278 /* XLNavigationBar.m */; };
+		B1F0D0C82269FBD200E5F278 /* XLDrawHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0B52269FBD100E5F278 /* XLDrawHelper.m */; };
+		B1F0D0C92269FBD200E5F278 /* UIViewController+XLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0B92269FBD100E5F278 /* UIViewController+XLFinder.m */; };
+		B1F0D0CA2269FBD200E5F278 /* XLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0BB2269FBD100E5F278 /* XLTabBarController.m */; };
+		B1F0D0CE226A006E00E5F278 /* XLChannelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0CC226A006E00E5F278 /* XLChannelsController.m */; };
+		B1F0D0D2226A02DC00E5F278 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0D0226A02DC00E5F278 /* TestViewController.m */; };
+		B1F0D0D6226A032400E5F278 /* XLHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0D5226A032400E5F278 /* XLHomeController.m */; };
+		B1F0D0D9226A040000E5F278 /* XLBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0D8226A040000E5F278 /* XLBaseController.m */; };
+		B1F0D0E5226A06F400E5F278 /* XLBaseCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0DC226A06F400E5F278 /* XLBaseCellController.m */; };
+		B1F0D0E6226A06F400E5F278 /* XLTableCellProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0DD226A06F400E5F278 /* XLTableCellProvider.m */; };
+		B1F0D0E7226A06F400E5F278 /* XLBaseStaticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0E1226A06F400E5F278 /* XLBaseStaticCell.m */; };
+		B1F0D0E8226A06F400E5F278 /* XLCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0E2226A06F400E5F278 /* XLCommonCell.m */; };
+		B1F0D0EC226A076100E5F278 /* XLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0EA226A076100E5F278 /* XLBadgeView.m */; };
+		B1F0D0EF226A092100E5F278 /* XLBaseStaticTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0EE226A092100E5F278 /* XLBaseStaticTableController.m */; };
+		B1F0D0F2226A0A3900E5F278 /* XLNormalCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0D0F1226A0A3900E5F278 /* XLNormalCellController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D581C620CC0F9100719BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D581A520CC0F9000719BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D581AC20CC0F9000719BD8;
+			remoteInfo = iOSDemo;
+		};
+		B1D581D120CC0F9100719BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D581A520CC0F9000719BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D581AC20CC0F9000719BD8;
+			remoteInfo = iOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3316FAD1C1254BC7361425F6 /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B18C4224226882C9003FCAF6 /* xl_resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xl_resources; sourceTree = "<group>"; };
+		B1D581AD20CC0F9000719BD8 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D581B020CC0F9000719BD8 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		B1D581B120CC0F9000719BD8 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		B1D581B720CC0F9000719BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D581B920CC0F9100719BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D581BC20CC0F9100719BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1D581BE20CC0F9100719BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D581BF20CC0F9100719BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1D581C520CC0F9100719BD8 /* iOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D581C920CC0F9100719BD8 /* iOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDemoTests.m; sourceTree = "<group>"; };
+		B1D581CB20CC0F9100719BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D581D020CC0F9100719BD8 /* iOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D581D420CC0F9100719BD8 /* iOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDemoUITests.m; sourceTree = "<group>"; };
+		B1D581D620CC0F9100719BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1DF2B4E2271C5910005A2D4 /* XLAlgorithmCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAlgorithmCellController.h; sourceTree = "<group>"; };
+		B1DF2B4F2271C5910005A2D4 /* XLAlgorithmCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAlgorithmCellController.m; sourceTree = "<group>"; };
+		B1DF2B512271C5A90005A2D4 /* XLFlutterCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFlutterCellController.h; sourceTree = "<group>"; };
+		B1DF2B522271C5A90005A2D4 /* XLFlutterCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFlutterCellController.m; sourceTree = "<group>"; };
+		B1DF2B542271C65B0005A2D4 /* XLReactNativeCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLReactNativeCellController.h; sourceTree = "<group>"; };
+		B1DF2B552271C65B0005A2D4 /* XLReactNativeCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLReactNativeCellController.m; sourceTree = "<group>"; };
+		B1E11382226DBC6B0026AB43 /* XLFishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFishhook.h; sourceTree = "<group>"; };
+		B1E11383226DBC6B0026AB43 /* XLFishhook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFishhook.m; sourceTree = "<group>"; };
+		B1E11385226DE7440026AB43 /* XLMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMRCViewController.h; sourceTree = "<group>"; };
+		B1E11386226DE7440026AB43 /* XLMRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMRCViewController.m; sourceTree = "<group>"; };
+		B1E113A5226F12FE0026AB43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B1E113A7226F13080026AB43 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B1E113A9226F131D0026AB43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B1E113AB226F13250026AB43 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B1E113AD226F132E0026AB43 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B1E113AF226F13390026AB43 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1E113B1226F13410026AB43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1E113B3226F13490026AB43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B1E113B5226F13510026AB43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B1E113B7226F13800026AB43 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B1E113B9226F13FB0026AB43 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B1E113C2226F17320026AB43 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B1F0D0472269F7A500E5F278 /* XLAppRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAppRootController.h; sourceTree = "<group>"; };
+		B1F0D0482269F7A500E5F278 /* XLAppRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAppRootController.m; sourceTree = "<group>"; };
+		B1F0D0632269FA2B00E5F278 /* XLPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPrefixHeader.pch; sourceTree = "<group>"; };
+		B1F0D06A2269FBB200E5F278 /* XLVersionWelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVersionWelcomeController.h; sourceTree = "<group>"; };
+		B1F0D06B2269FBB200E5F278 /* XLVersionWelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVersionWelcomeController.m; sourceTree = "<group>"; };
+		B1F0D06D2269FBB200E5F278 /* XLVersionWelcomeItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVersionWelcomeItemView.m; sourceTree = "<group>"; };
+		B1F0D06E2269FBB200E5F278 /* XLVersionWelcomeItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVersionWelcomeItemView.h; sourceTree = "<group>"; };
+		B1F0D0732269FBB200E5F278 /* XLChannelScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelScrollView.h; sourceTree = "<group>"; };
+		B1F0D0742269FBB200E5F278 /* XLChannelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelController.m; sourceTree = "<group>"; };
+		B1F0D0752269FBB200E5F278 /* XLChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannel.h; sourceTree = "<group>"; };
+		B1F0D0762269FBB200E5F278 /* XLChannelSelectBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelSelectBoardView.h; sourceTree = "<group>"; };
+		B1F0D0772269FBB200E5F278 /* XLChannelItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelItemView.h; sourceTree = "<group>"; };
+		B1F0D0782269FBB200E5F278 /* XLChannelControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelControllerFactory.h; sourceTree = "<group>"; };
+		B1F0D0792269FBB200E5F278 /* XLChannelScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelScrollView.m; sourceTree = "<group>"; };
+		B1F0D07A2269FBB200E5F278 /* XLChannelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelController.h; sourceTree = "<group>"; };
+		B1F0D07B2269FBB200E5F278 /* XLChannelSelectBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelSelectBoardView.m; sourceTree = "<group>"; };
+		B1F0D07C2269FBB200E5F278 /* XLChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannel.m; sourceTree = "<group>"; };
+		B1F0D07D2269FBB200E5F278 /* XLChannelControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelControllerFactory.m; sourceTree = "<group>"; };
+		B1F0D07E2269FBB200E5F278 /* XLChannelItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelItemView.m; sourceTree = "<group>"; };
+		B1F0D0802269FBB200E5F278 /* XLNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNavigator.m; sourceTree = "<group>"; };
+		B1F0D0812269FBB200E5F278 /* XLNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNavigator.h; sourceTree = "<group>"; };
+		B1F0D0832269FBB200E5F278 /* XLAppInitProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAppInitProcess.h; sourceTree = "<group>"; };
+		B1F0D0842269FBB200E5F278 /* XLAppRootDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAppRootDelegate.h; sourceTree = "<group>"; };
+		B1F0D0852269FBB200E5F278 /* XLAppInitProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAppInitProcess.m; sourceTree = "<group>"; };
+		B1F0D0862269FBB200E5F278 /* XLAppRootDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAppRootDelegate.m; sourceTree = "<group>"; };
+		B1F0D0962269FBD100E5F278 /* NSDictionary+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XLSafe.h"; sourceTree = "<group>"; };
+		B1F0D0972269FBD100E5F278 /* NSArray+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XLSafe.h"; sourceTree = "<group>"; };
+		B1F0D0982269FBD100E5F278 /* NSDictionary+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XLSafe.m"; sourceTree = "<group>"; };
+		B1F0D0992269FBD100E5F278 /* NSArray+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XLSafe.m"; sourceTree = "<group>"; };
+		B1F0D09B2269FBD100E5F278 /* XLNextRunloopRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNextRunloopRunner.m; sourceTree = "<group>"; };
+		B1F0D09C2269FBD100E5F278 /* XLNextRunloopRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNextRunloopRunner.h; sourceTree = "<group>"; };
+		B1F0D09E2269FBD100E5F278 /* XLResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLResourceManager.h; sourceTree = "<group>"; };
+		B1F0D09F2269FBD100E5F278 /* XLResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLResourceManager.m; sourceTree = "<group>"; };
+		B1F0D0A22269FBD100E5F278 /* UIImage+XLQuick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLQuick.h"; sourceTree = "<group>"; };
+		B1F0D0A32269FBD100E5F278 /* UIImage+XLQuick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLQuick.m"; sourceTree = "<group>"; };
+		B1F0D0A52269FBD100E5F278 /* XLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageView.h; sourceTree = "<group>"; };
+		B1F0D0A62269FBD100E5F278 /* XLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageView.m; sourceTree = "<group>"; };
+		B1F0D0A82269FBD100E5F278 /* UIView+XLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLLayout.h"; sourceTree = "<group>"; };
+		B1F0D0A92269FBD100E5F278 /* UIView+XLLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLLayout.m"; sourceTree = "<group>"; };
+		B1F0D0AB2269FBD100E5F278 /* UIColor+XLBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLBase.m"; sourceTree = "<group>"; };
+		B1F0D0AC2269FBD100E5F278 /* UIColor+XLBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XLBase.h"; sourceTree = "<group>"; };
+		B1F0D0AE2269FBD100E5F278 /* XLTransparentNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTransparentNavigationBar.m; sourceTree = "<group>"; };
+		B1F0D0AF2269FBD100E5F278 /* XLNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNavigationBar.h; sourceTree = "<group>"; };
+		B1F0D0B02269FBD100E5F278 /* XLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNavigationController.m; sourceTree = "<group>"; };
+		B1F0D0B12269FBD100E5F278 /* XLTransparentNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTransparentNavigationBar.h; sourceTree = "<group>"; };
+		B1F0D0B22269FBD100E5F278 /* XLNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNavigationBar.m; sourceTree = "<group>"; };
+		B1F0D0B32269FBD100E5F278 /* XLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNavigationController.h; sourceTree = "<group>"; };
+		B1F0D0B52269FBD100E5F278 /* XLDrawHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDrawHelper.m; sourceTree = "<group>"; };
+		B1F0D0B62269FBD100E5F278 /* XLDrawHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDrawHelper.h; sourceTree = "<group>"; };
+		B1F0D0B82269FBD100E5F278 /* UIViewController+XLFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLFinder.h"; sourceTree = "<group>"; };
+		B1F0D0B92269FBD100E5F278 /* UIViewController+XLFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLFinder.m"; sourceTree = "<group>"; };
+		B1F0D0BB2269FBD100E5F278 /* XLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTabBarController.m; sourceTree = "<group>"; };
+		B1F0D0BC2269FBD100E5F278 /* XLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTabBarController.h; sourceTree = "<group>"; };
+		B1F0D0CC226A006E00E5F278 /* XLChannelsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelsController.m; sourceTree = "<group>"; };
+		B1F0D0CD226A006E00E5F278 /* XLChannelsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelsController.h; sourceTree = "<group>"; };
+		B1F0D0D0226A02DC00E5F278 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		B1F0D0D1226A02DC00E5F278 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B1F0D0D4226A032400E5F278 /* XLHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLHomeController.h; sourceTree = "<group>"; };
+		B1F0D0D5226A032400E5F278 /* XLHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHomeController.m; sourceTree = "<group>"; };
+		B1F0D0D7226A040000E5F278 /* XLBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseController.h; sourceTree = "<group>"; };
+		B1F0D0D8226A040000E5F278 /* XLBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseController.m; sourceTree = "<group>"; };
+		B1F0D0DB226A06F400E5F278 /* XLTableCellProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableCellProvider.h; sourceTree = "<group>"; };
+		B1F0D0DC226A06F400E5F278 /* XLBaseCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseCellController.m; sourceTree = "<group>"; };
+		B1F0D0DD226A06F400E5F278 /* XLTableCellProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableCellProvider.m; sourceTree = "<group>"; };
+		B1F0D0DF226A06F400E5F278 /* XLBaseStaticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseStaticCell.h; sourceTree = "<group>"; };
+		B1F0D0E0226A06F400E5F278 /* XLCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCommonCell.h; sourceTree = "<group>"; };
+		B1F0D0E1226A06F400E5F278 /* XLBaseStaticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseStaticCell.m; sourceTree = "<group>"; };
+		B1F0D0E2226A06F400E5F278 /* XLCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCommonCell.m; sourceTree = "<group>"; };
+		B1F0D0E3226A06F400E5F278 /* XLCellControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCellControllerProtocol.h; sourceTree = "<group>"; };
+		B1F0D0E4226A06F400E5F278 /* XLBaseCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseCellController.h; sourceTree = "<group>"; };
+		B1F0D0EA226A076100E5F278 /* XLBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBadgeView.m; sourceTree = "<group>"; };
+		B1F0D0EB226A076100E5F278 /* XLBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBadgeView.h; sourceTree = "<group>"; };
+		B1F0D0ED226A092100E5F278 /* XLBaseStaticTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseStaticTableController.h; sourceTree = "<group>"; };
+		B1F0D0EE226A092100E5F278 /* XLBaseStaticTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseStaticTableController.m; sourceTree = "<group>"; };
+		B1F0D0F0226A0A3900E5F278 /* XLNormalCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNormalCellController.h; sourceTree = "<group>"; };
+		B1F0D0F1226A0A3900E5F278 /* XLNormalCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNormalCellController.m; sourceTree = "<group>"; };
+		C35F602165B75D10F439C266 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9017AF772B1B96590B84DBA /* libPods-iOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D581AA20CC0F9000719BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609B803CD48FB93CF3828389 /* libPods-iOSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581C220CC0F9100719BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581CD20CC0F9100719BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D581A420CC0F9000719BD8 = {
+			isa = PBXGroup;
+			children = (
+				B1D581AF20CC0F9000719BD8 /* iOSDemo */,
+				B1D581C820CC0F9100719BD8 /* iOSDemoTests */,
+				B1D581D320CC0F9100719BD8 /* iOSDemoUITests */,
+				B1D581AE20CC0F9000719BD8 /* Products */,
+				FA06F8CD5097C581373DD856 /* Pods */,
+				C02DE84EB72F85A9544854B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D581AE20CC0F9000719BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D581AD20CC0F9000719BD8 /* iOSDemo.app */,
+				B1D581C520CC0F9100719BD8 /* iOSDemoTests.xctest */,
+				B1D581D020CC0F9100719BD8 /* iOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D581AF20CC0F9000719BD8 /* iOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1E1137E226DBAA70026AB43 /* fishhook */,
+				B1F0D0682269FBB200E5F278 /* Features */,
+				B1F0D0932269FBD100E5F278 /* Core */,
+				B1F0D0472269F7A500E5F278 /* XLAppRootController.h */,
+				B1F0D0482269F7A500E5F278 /* XLAppRootController.m */,
+				B1D581B020CC0F9000719BD8 /* XLAppDelegate.h */,
+				B1D581B120CC0F9000719BD8 /* XLAppDelegate.m */,
+				B1F0D0632269FA2B00E5F278 /* XLPrefixHeader.pch */,
+				B18C4224226882C9003FCAF6 /* xl_resources */,
+				B1D581B620CC0F9000719BD8 /* Main.storyboard */,
+				B1D581B920CC0F9100719BD8 /* Assets.xcassets */,
+				B1D581BB20CC0F9100719BD8 /* LaunchScreen.storyboard */,
+				B1D581BE20CC0F9100719BD8 /* Info.plist */,
+				B1D581BF20CC0F9100719BD8 /* main.m */,
+			);
+			path = iOSDemo;
+			sourceTree = "<group>";
+		};
+		B1D581C820CC0F9100719BD8 /* iOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D581C920CC0F9100719BD8 /* iOSDemoTests.m */,
+				B1D581CB20CC0F9100719BD8 /* Info.plist */,
+			);
+			path = iOSDemoTests;
+			sourceTree = "<group>";
+		};
+		B1D581D320CC0F9100719BD8 /* iOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D581D420CC0F9100719BD8 /* iOSDemoUITests.m */,
+				B1D581D620CC0F9100719BD8 /* Info.plist */,
+			);
+			path = iOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		B1DF2B4B2271C5900005A2D4 /* XLFlutterCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B512271C5A90005A2D4 /* XLFlutterCellController.h */,
+				B1DF2B522271C5A90005A2D4 /* XLFlutterCellController.m */,
+			);
+			path = XLFlutterCellController;
+			sourceTree = "<group>";
+		};
+		B1DF2B4C2271C5900005A2D4 /* XLReactNativeCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B542271C65B0005A2D4 /* XLReactNativeCellController.h */,
+				B1DF2B552271C65B0005A2D4 /* XLReactNativeCellController.m */,
+			);
+			path = XLReactNativeCellController;
+			sourceTree = "<group>";
+		};
+		B1DF2B4D2271C5910005A2D4 /* XLAlgorithmCellController */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B4E2271C5910005A2D4 /* XLAlgorithmCellController.h */,
+				B1DF2B4F2271C5910005A2D4 /* XLAlgorithmCellController.m */,
+			);
+			path = XLAlgorithmCellController;
+			sourceTree = "<group>";
+		};
+		B1E1137E226DBAA70026AB43 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				B1E11382226DBC6B0026AB43 /* XLFishhook.h */,
+				B1E11383226DBC6B0026AB43 /* XLFishhook.m */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		B1F0D0682269FBB200E5F278 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0D3226A031400E5F278 /* Home */,
+				B1F0D0CB226A006E00E5F278 /* XLChannelsController */,
+				B1F0D0692269FBB200E5F278 /* VersionWelcome */,
+				B1F0D0722269FBB200E5F278 /* XLChannelScrollView */,
+				B1F0D07F2269FBB200E5F278 /* Navigator */,
+				B1F0D0822269FBB200E5F278 /* AppStartProcess */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B1F0D0692269FBB200E5F278 /* VersionWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D06A2269FBB200E5F278 /* XLVersionWelcomeController.h */,
+				B1F0D06B2269FBB200E5F278 /* XLVersionWelcomeController.m */,
+				B1F0D06C2269FBB200E5F278 /* Views */,
+			);
+			path = VersionWelcome;
+			sourceTree = "<group>";
+		};
+		B1F0D06C2269FBB200E5F278 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D06D2269FBB200E5F278 /* XLVersionWelcomeItemView.m */,
+				B1F0D06E2269FBB200E5F278 /* XLVersionWelcomeItemView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1F0D0722269FBB200E5F278 /* XLChannelScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0732269FBB200E5F278 /* XLChannelScrollView.h */,
+				B1F0D0742269FBB200E5F278 /* XLChannelController.m */,
+				B1F0D0752269FBB200E5F278 /* XLChannel.h */,
+				B1F0D0762269FBB200E5F278 /* XLChannelSelectBoardView.h */,
+				B1F0D0772269FBB200E5F278 /* XLChannelItemView.h */,
+				B1F0D0782269FBB200E5F278 /* XLChannelControllerFactory.h */,
+				B1F0D0792269FBB200E5F278 /* XLChannelScrollView.m */,
+				B1F0D07A2269FBB200E5F278 /* XLChannelController.h */,
+				B1F0D07B2269FBB200E5F278 /* XLChannelSelectBoardView.m */,
+				B1F0D07C2269FBB200E5F278 /* XLChannel.m */,
+				B1F0D07D2269FBB200E5F278 /* XLChannelControllerFactory.m */,
+				B1F0D07E2269FBB200E5F278 /* XLChannelItemView.m */,
+			);
+			path = XLChannelScrollView;
+			sourceTree = "<group>";
+		};
+		B1F0D07F2269FBB200E5F278 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0802269FBB200E5F278 /* XLNavigator.m */,
+				B1F0D0812269FBB200E5F278 /* XLNavigator.h */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		B1F0D0822269FBB200E5F278 /* AppStartProcess */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0832269FBB200E5F278 /* XLAppInitProcess.h */,
+				B1F0D0852269FBB200E5F278 /* XLAppInitProcess.m */,
+				B1F0D0842269FBB200E5F278 /* XLAppRootDelegate.h */,
+				B1F0D0862269FBB200E5F278 /* XLAppRootDelegate.m */,
+			);
+			path = AppStartProcess;
+			sourceTree = "<group>";
+		};
+		B1F0D0932269FBD100E5F278 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0942269FBD100E5F278 /* BaseFoundataion */,
+				B1F0D0A02269FBD100E5F278 /* BaseUIKit */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B1F0D0942269FBD100E5F278 /* BaseFoundataion */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0952269FBD100E5F278 /* Safe */,
+				B1F0D09A2269FBD100E5F278 /* RunLoop */,
+				B1F0D09D2269FBD100E5F278 /* XLResourceManager */,
+			);
+			path = BaseFoundataion;
+			sourceTree = "<group>";
+		};
+		B1F0D0952269FBD100E5F278 /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0962269FBD100E5F278 /* NSDictionary+XLSafe.h */,
+				B1F0D0972269FBD100E5F278 /* NSArray+XLSafe.h */,
+				B1F0D0982269FBD100E5F278 /* NSDictionary+XLSafe.m */,
+				B1F0D0992269FBD100E5F278 /* NSArray+XLSafe.m */,
+			);
+			path = Safe;
+			sourceTree = "<group>";
+		};
+		B1F0D09A2269FBD100E5F278 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D09B2269FBD100E5F278 /* XLNextRunloopRunner.m */,
+				B1F0D09C2269FBD100E5F278 /* XLNextRunloopRunner.h */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		B1F0D09D2269FBD100E5F278 /* XLResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D09E2269FBD100E5F278 /* XLResourceManager.h */,
+				B1F0D09F2269FBD100E5F278 /* XLResourceManager.m */,
+			);
+			path = XLResourceManager;
+			sourceTree = "<group>";
+		};
+		B1F0D0A02269FBD100E5F278 /* BaseUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0E9226A076100E5F278 /* Views */,
+				B1F0D0DA226A06F400E5F278 /* TableView */,
+				B1F0D0A12269FBD100E5F278 /* UIImage */,
+				B1F0D0A42269FBD100E5F278 /* ImageView */,
+				B1F0D0A72269FBD100E5F278 /* Layout */,
+				B1F0D0AA2269FBD100E5F278 /* Color */,
+				B1F0D0AD2269FBD100E5F278 /* Navigator */,
+				B1F0D0B42269FBD100E5F278 /* Graphics */,
+				B1F0D0B72269FBD100E5F278 /* ViewController */,
+				B1F0D0BA2269FBD100E5F278 /* TabBarController */,
+			);
+			path = BaseUIKit;
+			sourceTree = "<group>";
+		};
+		B1F0D0A12269FBD100E5F278 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0A22269FBD100E5F278 /* UIImage+XLQuick.h */,
+				B1F0D0A32269FBD100E5F278 /* UIImage+XLQuick.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		B1F0D0A42269FBD100E5F278 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0A52269FBD100E5F278 /* XLImageView.h */,
+				B1F0D0A62269FBD100E5F278 /* XLImageView.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		B1F0D0A72269FBD100E5F278 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0A82269FBD100E5F278 /* UIView+XLLayout.h */,
+				B1F0D0A92269FBD100E5F278 /* UIView+XLLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		B1F0D0AA2269FBD100E5F278 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0AB2269FBD100E5F278 /* UIColor+XLBase.m */,
+				B1F0D0AC2269FBD100E5F278 /* UIColor+XLBase.h */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		B1F0D0AD2269FBD100E5F278 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0B12269FBD100E5F278 /* XLTransparentNavigationBar.h */,
+				B1F0D0AE2269FBD100E5F278 /* XLTransparentNavigationBar.m */,
+				B1F0D0AF2269FBD100E5F278 /* XLNavigationBar.h */,
+				B1F0D0B22269FBD100E5F278 /* XLNavigationBar.m */,
+				B1F0D0B32269FBD100E5F278 /* XLNavigationController.h */,
+				B1F0D0B02269FBD100E5F278 /* XLNavigationController.m */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		B1F0D0B42269FBD100E5F278 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0B52269FBD100E5F278 /* XLDrawHelper.m */,
+				B1F0D0B62269FBD100E5F278 /* XLDrawHelper.h */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		B1F0D0B72269FBD100E5F278 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0B82269FBD100E5F278 /* UIViewController+XLFinder.h */,
+				B1F0D0B92269FBD100E5F278 /* UIViewController+XLFinder.m */,
+				B1F0D0D7226A040000E5F278 /* XLBaseController.h */,
+				B1F0D0D8226A040000E5F278 /* XLBaseController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B1F0D0BA2269FBD100E5F278 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0BB2269FBD100E5F278 /* XLTabBarController.m */,
+				B1F0D0BC2269FBD100E5F278 /* XLTabBarController.h */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		B1F0D0CB226A006E00E5F278 /* XLChannelsController */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0CF226A02DC00E5F278 /* TEST */,
+				B1F0D0CD226A006E00E5F278 /* XLChannelsController.h */,
+				B1F0D0CC226A006E00E5F278 /* XLChannelsController.m */,
+			);
+			path = XLChannelsController;
+			sourceTree = "<group>";
+		};
+		B1F0D0CF226A02DC00E5F278 /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0D1226A02DC00E5F278 /* TestViewController.h */,
+				B1F0D0D0226A02DC00E5F278 /* TestViewController.m */,
+				B1E11385226DE7440026AB43 /* XLMRCViewController.h */,
+				B1E11386226DE7440026AB43 /* XLMRCViewController.m */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		B1F0D0D3226A031400E5F278 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF4DDE226A0C0500D2586E /* CellControllers */,
+				B1F0D0D4226A032400E5F278 /* XLHomeController.h */,
+				B1F0D0D5226A032400E5F278 /* XLHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1F0D0DA226A06F400E5F278 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0ED226A092100E5F278 /* XLBaseStaticTableController.h */,
+				B1F0D0EE226A092100E5F278 /* XLBaseStaticTableController.m */,
+				B1F0D0F0226A0A3900E5F278 /* XLNormalCellController.h */,
+				B1F0D0F1226A0A3900E5F278 /* XLNormalCellController.m */,
+				B1F0D0DB226A06F400E5F278 /* XLTableCellProvider.h */,
+				B1F0D0DD226A06F400E5F278 /* XLTableCellProvider.m */,
+				B1F0D0E4226A06F400E5F278 /* XLBaseCellController.h */,
+				B1F0D0DC226A06F400E5F278 /* XLBaseCellController.m */,
+				B1F0D0E3226A06F400E5F278 /* XLCellControllerProtocol.h */,
+				B1F0D0DE226A06F400E5F278 /* TableViewCell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B1F0D0DE226A06F400E5F278 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0DF226A06F400E5F278 /* XLBaseStaticCell.h */,
+				B1F0D0E1226A06F400E5F278 /* XLBaseStaticCell.m */,
+				B1F0D0E0226A06F400E5F278 /* XLCommonCell.h */,
+				B1F0D0E2226A06F400E5F278 /* XLCommonCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B1F0D0E9226A076100E5F278 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0D0EA226A076100E5F278 /* XLBadgeView.m */,
+				B1F0D0EB226A076100E5F278 /* XLBadgeView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1FF4DDE226A0C0500D2586E /* CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2B4D2271C5910005A2D4 /* XLAlgorithmCellController */,
+				B1DF2B4B2271C5900005A2D4 /* XLFlutterCellController */,
+				B1DF2B4C2271C5900005A2D4 /* XLReactNativeCellController */,
+			);
+			path = CellControllers;
+			sourceTree = "<group>";
+		};
+		C02DE84EB72F85A9544854B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E113C2226F17320026AB43 /* GLKit.framework */,
+				B1E113B9226F13FB0026AB43 /* libc++.tbd */,
+				B1E113B7226F13800026AB43 /* libsqlite3.0.tbd */,
+				B1E113B5226F13510026AB43 /* SystemConfiguration.framework */,
+				B1E113B3226F13490026AB43 /* QuartzCore.framework */,
+				B1E113B1226F13410026AB43 /* CoreGraphics.framework */,
+				B1E113AF226F13390026AB43 /* CoreLocation.framework */,
+				B1E113AD226F132E0026AB43 /* CoreTelephony.framework */,
+				B1E113AB226F13250026AB43 /* OpenGLES.framework */,
+				B1E113A9226F131D0026AB43 /* Security.framework */,
+				B1E113A7226F13080026AB43 /* MessageUI.framework */,
+				B1E113A5226F12FE0026AB43 /* MobileCoreServices.framework */,
+				C9017AF772B1B96590B84DBA /* libPods-iOSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA06F8CD5097C581373DD856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C35F602165B75D10F439C266 /* Pods-iOSDemo.debug.xcconfig */,
+				3316FAD1C1254BC7361425F6 /* Pods-iOSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D581AC20CC0F9000719BD8 /* iOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D581D920CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemo" */;
+			buildPhases = (
+				5467B60DFF717C0AE46A38FE /* [CP] Check Pods Manifest.lock */,
+				B1D581A920CC0F9000719BD8 /* Sources */,
+				B1D581AA20CC0F9000719BD8 /* Frameworks */,
+				B1D581AB20CC0F9000719BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDemo;
+			productName = iOSDemo;
+			productReference = B1D581AD20CC0F9000719BD8 /* iOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D581C420CC0F9100719BD8 /* iOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D581DC20CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemoTests" */;
+			buildPhases = (
+				B1D581C120CC0F9100719BD8 /* Sources */,
+				B1D581C220CC0F9100719BD8 /* Frameworks */,
+				B1D581C320CC0F9100719BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D581C720CC0F9100719BD8 /* PBXTargetDependency */,
+			);
+			name = iOSDemoTests;
+			productName = iOSDemoTests;
+			productReference = B1D581C520CC0F9100719BD8 /* iOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D581CF20CC0F9100719BD8 /* iOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D581DF20CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemoUITests" */;
+			buildPhases = (
+				B1D581CC20CC0F9100719BD8 /* Sources */,
+				B1D581CD20CC0F9100719BD8 /* Frameworks */,
+				B1D581CE20CC0F9100719BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D581D220CC0F9100719BD8 /* PBXTargetDependency */,
+			);
+			name = iOSDemoUITests;
+			productName = iOSDemoUITests;
+			productReference = B1D581D020CC0F9100719BD8 /* iOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D581A520CC0F9000719BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = AlexSiu;
+				TargetAttributes = {
+					B1D581AC20CC0F9000719BD8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					B1D581C420CC0F9100719BD8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B1D581AC20CC0F9000719BD8;
+					};
+					B1D581CF20CC0F9100719BD8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B1D581AC20CC0F9000719BD8;
+					};
+				};
+			};
+			buildConfigurationList = B1D581A820CC0F9000719BD8 /* Build configuration list for PBXProject "iOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D581A420CC0F9000719BD8;
+			productRefGroup = B1D581AE20CC0F9000719BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D581AC20CC0F9000719BD8 /* iOSDemo */,
+				B1D581C420CC0F9100719BD8 /* iOSDemoTests */,
+				B1D581CF20CC0F9100719BD8 /* iOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D581AB20CC0F9000719BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D581BD20CC0F9100719BD8 /* LaunchScreen.storyboard in Resources */,
+				B18C4225226882C9003FCAF6 /* xl_resources in Resources */,
+				B1D581BA20CC0F9100719BD8 /* Assets.xcassets in Resources */,
+				B1D581B820CC0F9000719BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581C320CC0F9100719BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581CE20CC0F9100719BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5467B60DFF717C0AE46A38FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D581A920CC0F9000719BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F0D08E2269FBB200E5F278 /* XLChannelControllerFactory.m in Sources */,
+				B1F0D0922269FBB200E5F278 /* XLAppRootDelegate.m in Sources */,
+				B1F0D0E6226A06F400E5F278 /* XLTableCellProvider.m in Sources */,
+				B1DF2B502271C5910005A2D4 /* XLAlgorithmCellController.m in Sources */,
+				B1F0D0D2226A02DC00E5F278 /* TestViewController.m in Sources */,
+				B1F0D0C12269FBD100E5F278 /* UIImage+XLQuick.m in Sources */,
+				B1F0D0EC226A076100E5F278 /* XLBadgeView.m in Sources */,
+				B1F0D0C22269FBD200E5F278 /* XLImageView.m in Sources */,
+				B1F0D08A2269FBB200E5F278 /* XLChannelController.m in Sources */,
+				B1F0D0BF2269FBD100E5F278 /* XLNextRunloopRunner.m in Sources */,
+				B1DF2B532271C5A90005A2D4 /* XLFlutterCellController.m in Sources */,
+				B1F0D0912269FBB200E5F278 /* XLAppInitProcess.m in Sources */,
+				B1F0D0BD2269FBD100E5F278 /* NSDictionary+XLSafe.m in Sources */,
+				B1F0D0872269FBB200E5F278 /* XLVersionWelcomeController.m in Sources */,
+				B1F0D0C82269FBD200E5F278 /* XLDrawHelper.m in Sources */,
+				B1F0D0C02269FBD100E5F278 /* XLResourceManager.m in Sources */,
+				B1F0D08B2269FBB200E5F278 /* XLChannelScrollView.m in Sources */,
+				B1F0D0C92269FBD200E5F278 /* UIViewController+XLFinder.m in Sources */,
+				B1F0D0C32269FBD200E5F278 /* UIView+XLLayout.m in Sources */,
+				B1F0D0CE226A006E00E5F278 /* XLChannelsController.m in Sources */,
+				B1F0D0D9226A040000E5F278 /* XLBaseController.m in Sources */,
+				B1F0D0EF226A092100E5F278 /* XLBaseStaticTableController.m in Sources */,
+				B1F0D0C72269FBD200E5F278 /* XLNavigationBar.m in Sources */,
+				B1F0D0D6226A032400E5F278 /* XLHomeController.m in Sources */,
+				B1F0D08D2269FBB200E5F278 /* XLChannel.m in Sources */,
+				B1F0D08F2269FBB200E5F278 /* XLChannelItemView.m in Sources */,
+				B1DF2B562271C65B0005A2D4 /* XLReactNativeCellController.m in Sources */,
+				B1E11387226DE7440026AB43 /* XLMRCViewController.m in Sources */,
+				B1E11384226DBC6B0026AB43 /* XLFishhook.m in Sources */,
+				B1F0D0902269FBB200E5F278 /* XLNavigator.m in Sources */,
+				B1F0D0E8226A06F400E5F278 /* XLCommonCell.m in Sources */,
+				B1F0D0F2226A0A3900E5F278 /* XLNormalCellController.m in Sources */,
+				B1F0D0E5226A06F400E5F278 /* XLBaseCellController.m in Sources */,
+				B1F0D0CA2269FBD200E5F278 /* XLTabBarController.m in Sources */,
+				B1F0D0882269FBB200E5F278 /* XLVersionWelcomeItemView.m in Sources */,
+				B1F0D0E7226A06F400E5F278 /* XLBaseStaticCell.m in Sources */,
+				B1F0D0C42269FBD200E5F278 /* UIColor+XLBase.m in Sources */,
+				B1D581C020CC0F9100719BD8 /* main.m in Sources */,
+				B1F0D08C2269FBB200E5F278 /* XLChannelSelectBoardView.m in Sources */,
+				B1F0D0C52269FBD200E5F278 /* XLTransparentNavigationBar.m in Sources */,
+				B1F0D0492269F7A500E5F278 /* XLAppRootController.m in Sources */,
+				B1F0D0BE2269FBD100E5F278 /* NSArray+XLSafe.m in Sources */,
+				B1F0D0C62269FBD200E5F278 /* XLNavigationController.m in Sources */,
+				B1D581B220CC0F9000719BD8 /* XLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581C120CC0F9100719BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D581CA20CC0F9100719BD8 /* iOSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D581CC20CC0F9100719BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D581D520CC0F9100719BD8 /* iOSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D581C720CC0F9100719BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D581AC20CC0F9000719BD8 /* iOSDemo */;
+			targetProxy = B1D581C620CC0F9100719BD8 /* PBXContainerItemProxy */;
+		};
+		B1D581D220CC0F9100719BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D581AC20CC0F9000719BD8 /* iOSDemo */;
+			targetProxy = B1D581D120CC0F9100719BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1D581B620CC0F9000719BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D581B720CC0F9000719BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D581BB20CC0F9100719BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D581BC20CC0F9100719BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D581D720CC0F9100719BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1D581D820CC0F9100719BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D581DA20CC0F9100719BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35F602165B75D10F439C266 /* Pods-iOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VBYF372Z4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo/third",
+					"$(PROJECT_DIR)/iOSDemo/third/GD",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSDemo/XLPrefixHeader.pch";
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo/third/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1D581DB20CC0F9100719BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3316FAD1C1254BC7361425F6 /* Pods-iOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VBYF372Z4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo/third",
+					"$(PROJECT_DIR)/iOSDemo/third/GD",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSDemo/XLPrefixHeader.pch";
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo/third/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B1D581DD20CC0F9100719BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDemo.app/iOSDemo";
+			};
+			name = Debug;
+		};
+		B1D581DE20CC0F9100719BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDemo.app/iOSDemo";
+			};
+			name = Release;
+		};
+		B1D581E020CC0F9100719BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDemo;
+			};
+			name = Debug;
+		};
+		B1D581E120CC0F9100719BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoli.iOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D581A820CC0F9000719BD8 /* Build configuration list for PBXProject "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D581D720CC0F9100719BD8 /* Debug */,
+				B1D581D820CC0F9100719BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D581D920CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D581DA20CC0F9100719BD8 /* Debug */,
+				B1D581DB20CC0F9100719BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D581DC20CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D581DD20CC0F9100719BD8 /* Debug */,
+				B1D581DE20CC0F9100719BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D581DF20CC0F9100719BD8 /* Build configuration list for PBXNativeTarget "iOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D581E020CC0F9100719BD8 /* Debug */,
+				B1D581E120CC0F9100719BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D581A520CC0F9000719BD8 /* Project object */;
+}

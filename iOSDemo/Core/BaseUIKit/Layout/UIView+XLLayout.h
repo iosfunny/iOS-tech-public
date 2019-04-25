@@ -1,0 +1,33 @@
+//
+//  UIView+XLLayout.h
+//  Coinbon
+//
+//  Created by AlexSiu on 2018/6/11.
+//  Copyright © 2018年 CoinSea. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#define CBSetBorderColor(view, color) \
+(view).layer.borderColor = (color).CGColor; \
+(view).layer.borderWidth = 1.0;
+
+typedef NS_ENUM(NSInteger, XLLayoutAlignment)
+{
+    XLLayoutAlignmentCenter,
+    XLLayoutAlignmentLeft,
+    XLLayoutAlignmentRight
+};
+
+@interface UIView (XLLayout)
+@property (nonatomic) CGFloat left;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+@property (nonatomic) CGSize size;
+
+@end

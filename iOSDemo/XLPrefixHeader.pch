@@ -1,0 +1,20 @@
+//
+//  XLPrefixHeader.pch
+//  Demo
+//
+//  Created by AlexSiu on 2019/4/19.
+//  Copyright © 2019 AlexSiu. All rights reserved.
+//
+
+#ifndef XLPrefixHeader_h
+#define XLPrefixHeader_h
+
+#import "XLResourceManager.h"
+#import "UIView+XLLayout.h"
+#import "UIColor+XLBase.h"
+#import "UIImage+XLQuick.h"
+#import "XLNavigator.h"
+#import "XLNextRunloopRunner.h"
+
+
+#endif /* XLPrefixHeader_h */
