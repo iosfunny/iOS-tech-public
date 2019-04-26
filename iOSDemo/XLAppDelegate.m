@@ -24,7 +24,8 @@
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     [[XLAppInitProcess sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-    
+    // test git branch ..
+    // fuck ???
     return YES;
 }
 
